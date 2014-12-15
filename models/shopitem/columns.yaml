@@ -1,0 +1,8 @@
+columns:
+    name:
+        label: muukrls.shopautumn::lang.labels.item_name
+        searchable: true
+
+    price:
+        label: muukrls.shopautumn::lang.labels.item_price
+        searchable: true

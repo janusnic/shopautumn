@@ -1,0 +1,17 @@
+name: Item
+
+form: @/plugins/muukrls/shopautumn/models/shopitem/fields.yaml
+
+modelClass: Muukrls\Shopautumn\Models\ShopItem
+
+defaultRedirect: muukrls/shopautumn/items
+
+create:
+    title: muukrls.shopautumn::lang.items.create_title
+    redirect: muukrls/shopautumn/items/update/:id
+    redirectClose: muukrls/shopautumn/items
+
+update:
+    title: muukrls.shopautumn::lang.items.update_title
+    redirect: muukrls/shopautumn/items/update/:id
+    redirectClose: muukrls/shopautumn/items

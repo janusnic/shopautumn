@@ -1,0 +1,17 @@
+fields:
+    name:
+        label: muukrls.shopautumn::lang.labels.item_name
+        span: left
+    price:
+        label: muukrls.shopautumn::lang.labels.item_price
+        span: right
+    description:
+        label: muukrls.shopautumn::lang.labels.item_desc
+        type: richeditor
+
+    images:
+        label: muukrls.shopautumn::lang.labels.item_image
+        type: fileupload
+        mode: image
+        imageWidth: 200
+        imageHeight: 200
