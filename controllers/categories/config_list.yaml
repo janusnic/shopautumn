@@ -2,7 +2,7 @@ list: @/plugins/muukrls/shopautumn/models/category/columns.yaml
 
 modelClass: Muukrls\Shopautumn\Models\Category
 
-title: muukrls.shopautumn::lang.categories.list_title
+title: muukrls.shopautumn::lang.menu.menu_label_categories
 
 recordUrl: muukrls/shopautumn/categories/update/:id
 

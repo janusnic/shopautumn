@@ -1,3 +1,6 @@
 1.0.1:
     - First Plugin Release
     - create_items_table.php
+1.0.2:
+    - Added Categories
+    - create_categories_table.php

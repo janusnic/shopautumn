@@ -9,9 +9,16 @@ fields:
         label: muukrls.shopautumn::lang.labels.item_desc
         type: richeditor
 
-    images:
-        label: muukrls.shopautumn::lang.labels.item_image
-        type: fileupload
-        mode: image
-        imageWidth: 200
-        imageHeight: 200
+tabs:
+    fields:
+        images:
+            tab: muukrls.shopautumn::lang.tabs.images
+            label: muukrls.shopautumn::lang.labels.item_image
+            type: fileupload
+            mode: image
+            imageWidth: 200
+            imageHeight: 200
+        categories:
+            tab: muukrls.shopautumn::lang.tabs.categories
+            placeholder: No categories yet
+            type: relation

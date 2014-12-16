@@ -1,0 +1,9 @@
+columns:
+    id:
+        label: muukrls.shopautumn::lang.categories.id
+        searchable: true
+        invisible: true
+
+    name:
+        label: muukrls.shopautumn::lang.labels.category_name
+        searchable: true

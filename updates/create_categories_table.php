@@ -16,14 +16,13 @@ class CreateCategoriesTable extends Migration
             $table->string('name');
             $table->timestamps();
         });
-        
+
         Schema::create('muukrls_shopautumn_item_categories', function($table)
         {
             $table->engine = 'InnoDB';
             $table->increments('id');
             $table->integer('item_id')->unsigned();
             $table->integer('category_id')->unsigned();
-            $table->primary(['item_id', 'category_id']);
         });
     }
 

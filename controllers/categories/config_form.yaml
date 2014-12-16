@@ -1,17 +1,17 @@
-name: Item
+name: Category
 
-form: @/plugins/muukrls/shopautumn/models/shopitem/fields.yaml
+form: @/plugins/muukrls/shopautumn/models/category/fields.yaml
 
-modelClass: Muukrls\Shopautumn\Models\ShopItem
+modelClass: Muukrls\Shopautumn\Models\Category
 
-defaultRedirect: muukrls/shopautumn/items
+defaultRedirect: muukrls/shopautumn/categories
 
 create:
-    title: muukrls.shopautumn::lang.items.create_title
-    redirect: muukrls/shopautumn/items/update/:id
-    redirectClose: muukrls/shopautumn/items
+    title: muukrls.shopautumn::lang.categories.create_title
+    redirect: muukrls/shopautumn/categories/update/:id
+    redirectClose: muukrls/shopautumn/categories
 
 update:
-    title: muukrls.shopautumn::lang.items.update_title
-    redirect: muukrls/shopautumn/items/update/:id
-    redirectClose: muukrls/shopautumn/items
+    title: muukrls.shopautumn::lang.categories.update_title
+    redirect: muukrls/shopautumn/categories/update/:id
+    redirectClose: muukrls/shopautumn/categories

@@ -1,8 +1,8 @@
 <div data-control="toolbar">
     <a
-        href="<?= Backend::url('muukrls/shopautumn/items/create') ?>"
+        href="<?= Backend::url('muukrls/shopautumn/categories/create') ?>"
         class="btn btn-primary oc-icon-plus">
-        <?= e(trans('muukrls.shopautumn::lang.items.new')) ?>
+        <?= e(trans('muukrls.shopautumn::lang.categories.new')) ?>
     </a>
 
     <button
@@ -12,7 +12,7 @@
             checked: $('.control-list').listWidget('getChecked')
         })"
         data-request="onDelete"
-        data-request-confirm="<?= e(trans('muukrls.shopautumn::lang.items.delete_confirm')) ?>"
+        data-request-confirm="<?= e(trans('muukrls.shopautumn::lang.categories.delete_confirm')) ?>"
         data-trigger-type="enable"
         data-trigger=".control-list input[type=checkbox]"
         data-trigger-condition="checked"
