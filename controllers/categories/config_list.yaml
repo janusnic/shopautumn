@@ -1,0 +1,23 @@
+list: @/plugins/muukrls/shopautumn/models/category/columns.yaml
+
+modelClass: Muukrls\Shopautumn\Models\Category
+
+title: muukrls.shopautumn::lang.categories.list_title
+
+recordUrl: muukrls/shopautumn/categories/update/:id
+
+noRecordsMessage: backend::lang.list.no_records
+
+recordsPerPage: 20
+
+defaultSort:
+    column: name
+    direction: asc
+
+showCheckboxes: true
+
+toolbar:
+    buttons: list_toolbar
+
+    search:
+        prompt: backend::lang.list.search_promt

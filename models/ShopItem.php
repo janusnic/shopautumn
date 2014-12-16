@@ -3,7 +3,6 @@
 namespace Muukrls\Shopautumn\Models;
 
 use Model;
-use Form;
 use October\Rain\Database\Traits\Validation;
 
 class ShopItem extends Model
@@ -19,5 +18,9 @@ class ShopItem extends Model
 
     public $attachMany = [
         'images' => ['System\Models\File']
+    ];
+    
+    public $belongsToMany = [
+        'categories' => ['Muukrls\Shopautumn\Models\Category', 'table' => 'muukrls_shopautumn_item_categories', 'order' => 'name']
     ];
 }

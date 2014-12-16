@@ -14,6 +14,8 @@ class Items extends Controller
 
     public $formConfig = 'config_form.yaml';
     public $listConfig = 'config_list.yaml';
+    
+    public $requiredPermissions = ['shopautumn.access_items'];
 
     public function __construct()
     {
